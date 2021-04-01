@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.effect.DropShadow?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="246.0" prefWidth="391.0" style="-fx-background-color: transparent;" xmlns="http://javafx.com/javafx/8.0.172-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.myhamdaoui.CustomAlert.CustomAlert">
+   <children>
+      <Pane layoutX="19.0" layoutY="18.0" prefHeight="209.0" prefWidth="354.0" style="-fx-background-color: #fff; -fx-background-radius: 15;" AnchorPane.bottomAnchor="19.0" AnchorPane.leftAnchor="19.0" AnchorPane.rightAnchor="18.0" AnchorPane.topAnchor="18.0">
+         <effect>
+            <DropShadow color="#00000039" height="24.71" radius="11.67" width="23.97" />
+         </effect>
+         <children>
+            <JFXButton fx:id="closeBtn" layoutX="138.0" layoutY="146.0" onAction="#closeBtnAction" prefHeight="37.0" prefWidth="80.0" style="-fx-background-color: #6ac25a;" text="Fermer" textFill="WHITE" />
+
+         </children>
+      </Pane>
+      <ImageView fitHeight="50" fitWidth="50" layoutX="170.0" layoutY="35.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@icons/warning.png" />
+         </image>
+      </ImageView>
+      <Label fx:id="alertMsg" alignment="CENTER" contentDisplay="TOP" prefHeight="71.0" prefWidth="231.0" text="Please verify login information" textAlignment="CENTER" wrapText="true" AnchorPane.leftAnchor="82.0" AnchorPane.rightAnchor="77.0" AnchorPane.topAnchor="96.0">
+         <font>
+            <Font size="13.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

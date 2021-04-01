@@ -1,0 +1,284 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.input.*?>
+<?import javafx.scene.effect.*?>
+<?import com.jfoenix.controls.*?>
+<?import java.lang.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+<?import com.jfoenix.controls.JFXButton?>
+<?import com.jfoenix.controls.JFXRadioButton?>
+<?import com.jfoenix.controls.JFXTextArea?>
+<?import com.jfoenix.controls.JFXTextField?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Accordion?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Menu?>
+<?import javafx.scene.control.MenuBar?>
+<?import javafx.scene.control.MenuItem?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.control.TitledPane?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<BorderPane prefHeight="514.0" prefWidth="874.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.myhamdaoui.Views.Controller">
+   <top>
+      <MenuBar prefHeight="25.0" prefWidth="592.0" style="-fx-background-color: #eee;" BorderPane.alignment="CENTER">
+        <menus>
+          <Menu mnemonicParsing="false" text="Aide">
+            <items>
+              <MenuItem mnemonicParsing="false" onAction="#onClickAbout" text="About this app" />
+            </items>
+          </Menu>
+        </menus>
+      </MenuBar>
+   </top>
+   <left>
+      <Accordion prefHeight="315.0" prefWidth="202.0" style="-fx-background-color: #1f1f1f; -fx-border-width: 0 2px 0 0;" BorderPane.alignment="CENTER">
+        <panes>
+          <TitledPane prefHeight="318.0" prefWidth="202.0" text="Tri &amp; Arbres" textFill="WHITE">
+               <content>
+                  <VBox prefHeight="255.0" prefWidth="200.0" spacing="10.0">
+                     <children>
+                        <JFXButton fx:id="btn1" alignment="BASELINE_LEFT" prefHeight="37.0" prefWidth="180.0" ripplerFill="#fcaaaa" style="-fx-background-color: #ff7675; -fx-background-radius: 0;" text="Tri a bulles" textFill="WHITE">
+                           <cursor>
+                              <Cursor fx:constant="HAND" />
+                           </cursor>
+                           <font>
+                              <Font size="14.0" />
+                           </font>
+                        </JFXButton>
+                        <JFXButton fx:id="btn2" alignment="BASELINE_LEFT" layoutX="10.0" layoutY="100.0" prefHeight="37.0" prefWidth="186.0" ripplerFill="#998efc" style="-fx-background-color: #636e72; -fx-background-radius: 0;" text="Tri par fusion" textFill="WHITE">
+                           <cursor>
+                              <Cursor fx:constant="HAND" />
+                           </cursor>
+                           <font>
+                              <Font size="14.0" />
+                           </font>
+                        </JFXButton>
+                        <JFXButton fx:id="btn3" alignment="BASELINE_LEFT" layoutX="10.0" layoutY="131.0" prefHeight="37.0" prefWidth="211.0" ripplerFill="#9ea5a8" style="-fx-background-color: #636e72; -fx-background-radius: 0;" text="Tri 3" textFill="WHITE">
+                           <cursor>
+                              <Cursor fx:constant="HAND" />
+                           </cursor>
+                           <font>
+                              <Font size="14.0" />
+                           </font>
+                        </JFXButton>
+                        <JFXButton fx:id="btn4" alignment="BASELINE_LEFT" layoutX="20.0" layoutY="114.0" prefHeight="37.0" prefWidth="211.0" ripplerFill="#9ea5a8" style="-fx-background-color: #636e72; -fx-background-radius: 0;" text="Tri 4" textFill="WHITE">
+                           <cursor>
+                              <Cursor fx:constant="HAND" />
+                           </cursor>
+                           <font>
+                              <Font size="14.0" />
+                           </font>
+                        </JFXButton>
+                        <JFXButton fx:id="btn5" alignment="BASELINE_LEFT" layoutX="20.0" layoutY="161.0" prefHeight="37.0" prefWidth="211.0" ripplerFill="#9ea5a8" style="-fx-background-color: #636e72; -fx-background-radius: 0;" text="Tri 5" textFill="WHITE">
+                           <cursor>
+                              <Cursor fx:constant="HAND" />
+                           </cursor>
+                           <font>
+                              <Font size="14.0" />
+                           </font>
+                        </JFXButton>
+                        <JFXButton fx:id="btn6" alignment="BASELINE_LEFT" layoutX="20.0" layoutY="208.0" prefHeight="37.0" prefWidth="211.0" ripplerFill="#9ea5a8" style="-fx-background-color: #636e72; -fx-background-radius: 0;" text="Tri 6" textFill="WHITE">
+                           <cursor>
+                              <Cursor fx:constant="HAND" />
+                           </cursor>
+                           <font>
+                              <Font size="14.0" />
+                           </font>
+                        </JFXButton>
+                        <JFXButton fx:id="btn7" alignment="BASELINE_LEFT" layoutX="20.0" layoutY="255.0" prefHeight="37.0" prefWidth="211.0" ripplerFill="#9ea5a8" style="-fx-background-color: #636e72; -fx-background-radius: 0;" text="Tri 7" textFill="WHITE">
+                           <cursor>
+                              <Cursor fx:constant="HAND" />
+                           </cursor>
+                           <font>
+                              <Font size="14.0" />
+                           </font>
+                        </JFXButton>
+                        <JFXButton fx:id="btn8" alignment="BASELINE_LEFT" layoutX="20.0" layoutY="302.0" prefHeight="37.0" prefWidth="211.0" ripplerFill="#9ea5a8" style="-fx-background-color: #636e72; -fx-background-radius: 0;" text="Tri 8" textFill="WHITE">
+                           <cursor>
+                              <Cursor fx:constant="HAND" />
+                           </cursor>
+                           <font>
+                              <Font size="14.0" />
+                           </font>
+                        </JFXButton>
+                        <JFXButton fx:id="btn9" alignment="BASELINE_LEFT" layoutX="20.0" layoutY="349.0" prefHeight="37.0" prefWidth="211.0" ripplerFill="#9ea5a8" style="-fx-background-color: #636e72; -fx-background-radius: 0;" text="Tri 9" textFill="WHITE">
+                           <cursor>
+                              <Cursor fx:constant="HAND" />
+                           </cursor>
+                           <font>
+                              <Font size="14.0" />
+                           </font>
+                        </JFXButton>
+                        <JFXButton fx:id="btn10" alignment="BASELINE_LEFT" layoutX="20.0" layoutY="396.0" prefHeight="37.0" prefWidth="211.0" ripplerFill="#9ea5a8" style="-fx-background-color: #636e72; -fx-background-radius: 0;" text="Tri 10" textFill="WHITE">
+                           <cursor>
+                              <Cursor fx:constant="HAND" />
+                           </cursor>
+                           <font>
+                              <Font size="14.0" />
+                           </font>
+                        </JFXButton>
+                     </children>
+                  </VBox>
+               </content>
+          </TitledPane>
+            <TitledPane animated="false" text="Tours de Hanoi" textFill="WHITE">
+               <content>
+                  <VBox prefHeight="200.0" prefWidth="100.0">
+                     <children>
+                        <JFXButton fx:id="btn11" alignment="BASELINE_LEFT" prefHeight="37.0" prefWidth="180.0" ripplerFill="#fcaaaa" style="-fx-background-color: #636e72; -fx-background-radius: 0;" text="Tours de Hanoi" textFill="WHITE">
+                           <cursor>
+                              <Cursor fx:constant="HAND" />
+                           </cursor>
+                           <font>
+                              <Font size="14.0" />
+                           </font>
+                        </JFXButton>
+                     </children>
+                  </VBox>
+               </content>
+            </TitledPane>
+            <TitledPane animated="false" text="Matrices" textFill="WHITE">
+               <content>
+                  <VBox prefHeight="200.0" prefWidth="100.0" spacing="10.0">
+                     <children>
+                        <JFXButton fx:id="btn12" alignment="BASELINE_LEFT" prefHeight="37.0" prefWidth="180.0" ripplerFill="#fcaaaa" style="-fx-background-color: #636e72; -fx-background-radius: 0;" text="Matrice 1" textFill="WHITE">
+                           <cursor>
+                              <Cursor fx:constant="HAND" />
+                           </cursor>
+                           <font>
+                              <Font size="14.0" />
+                           </font>
+                        </JFXButton>
+                        <JFXButton fx:id="btn13" alignment="BASELINE_LEFT" prefHeight="37.0" prefWidth="180.0" ripplerFill="#fcaaaa" style="-fx-background-color: #636e72; -fx-background-radius: 0;" text="Matrice 2" textFill="WHITE">
+                           <cursor>
+                              <Cursor fx:constant="HAND" />
+                           </cursor>
+                           <font>
+                              <Font size="14.0" />
+                           </font>
+                        </JFXButton>
+                     </children>
+                  </VBox>
+               </content>
+            </TitledPane>
+        </panes>
+      </Accordion>
+   </left>
+   <center>
+      <VBox prefHeight="200.0" prefWidth="100.0" BorderPane.alignment="CENTER">
+         <children>
+            <HBox prefHeight="60.0" prefWidth="457.0">
+               <children>
+                  <JFXButton buttonType="RAISED" onAction="#onStartClicked" prefHeight="34.0" prefWidth="225.0" ripplerFill="#998efc" style="-fx-background-color: #6c5ce7; -fx-background-radius: 50;" text="Lancer l'algorithme" textFill="WHITE">
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor>
+                     <font>
+                        <Font size="13.0" />
+                     </font>
+                  </JFXButton>
+                  <Pane prefHeight="37.0" prefWidth="126.0" HBox.hgrow="ALWAYS" />
+               </children>
+            </HBox>
+            <Separator prefWidth="200.0">
+               <VBox.margin>
+                  <Insets top="10.0" />
+               </VBox.margin>
+            </Separator>
+            <Label prefHeight="17.0" prefWidth="44.0" text="Input" textFill="#4c20b2">
+               <VBox.margin>
+                  <Insets top="20.0" />
+               </VBox.margin>
+               <font>
+                  <Font size="13.0" />
+               </font></Label>
+            <HBox fx:id="inputContainer" prefHeight="41.0" prefWidth="457.0">
+               <children>
+                  <JFXTextField fx:id="inputField" maxWidth="-Infinity" prefHeight="25.0" prefWidth="509.0" promptText="Example: 5 8 2 3 6">
+                     <HBox.margin>
+                        <Insets right="10.0" />
+                     </HBox.margin>
+                  </JFXTextField>
+                  <JFXTextField fx:id="inputFieldFrom" focusColor="#b81f3b" maxWidth="-Infinity" prefHeight="25.0" prefWidth="207.0" promptText="From">
+                     <HBox.margin>
+                        <Insets right="10.0" />
+                     </HBox.margin>
+                  </JFXTextField>
+                  <JFXTextField fx:id="inputFieldTemp" focusColor="#b81f3b" maxWidth="-Infinity" prefHeight="25.0" prefWidth="207.0" promptText="Temp">
+                     <HBox.margin>
+                        <Insets right="10.0" />
+                     </HBox.margin>
+                  </JFXTextField>
+                  <JFXTextField fx:id="inputFieldTo" focusColor="#b81f3b" maxWidth="-Infinity" prefHeight="25.0" prefWidth="207.0" promptText="To" />
+               </children>
+            </HBox>
+            <Label fx:id="errorMessage" prefHeight="17.0" prefWidth="504.0" textFill="#ee2d2d">
+               <VBox.margin>
+                  <Insets top="10.0" />
+               </VBox.margin>
+            </Label>
+            <HBox fx:id="matriceContainer" prefHeight="160.0" prefWidth="457.0">
+               <children>
+                  <TextArea fx:id="inputMatrice1" prefHeight="71.0" prefWidth="200.0" promptText="Matrice 1">
+                     <HBox.margin>
+                        <Insets right="20.0" />
+                     </HBox.margin>
+                  </TextArea>
+                  <TextArea fx:id="inputMatrice2" prefHeight="200.0" prefWidth="200.0" promptText="Matrice 2" />
+               </children>
+            </HBox>
+            <Label prefHeight="19.0" prefWidth="62.0" text="Output" textFill="#d02a57">
+               <VBox.margin>
+                  <Insets bottom="20.0" top="10.0" />
+               </VBox.margin>
+               <font>
+                  <Font size="13.0" />
+               </font>
+            </Label>
+            <JFXTextArea fx:id="outputTextArea" editable="false" focusColor="WHITE" prefHeight="265.0" prefWidth="500.0" promptText="Les traces seront affichées ici" style="-fx-background-color: #eee; -fx-border-color: #ccc; -fx-border-width: 1px;" unFocusColor="WHITE">
+               <VBox.margin>
+                  <Insets />
+               </VBox.margin>
+               <padding>
+                  <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+               </padding>
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </JFXTextArea>
+         </children>
+         <padding>
+            <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+         </padding>
+      </VBox>
+   </center>
+   <right>
+      <VBox fx:id="typeAlgoContainer" prefHeight="441.0" prefWidth="175.0" spacing="10.0" BorderPane.alignment="CENTER">
+         <children>
+            <Label text="Type d'algorithme" textFill="#4d0fbf">
+               <font>
+                  <Font size="14.0" />
+               </font></Label>
+            <JFXRadioButton fx:id="radio1" text="Itératif" />
+            <JFXRadioButton fx:id="radio2" layoutX="10.0" layoutY="10.0" text="Récursive" />
+         </children>
+         <BorderPane.margin>
+            <Insets />
+         </BorderPane.margin>
+         <padding>
+            <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+         </padding>
+      </VBox>
+   </right>
+</BorderPane>
